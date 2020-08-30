@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root{
+    height: 100%;
+    width: 100%;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+}
+
+#score{
+    height: 70px;
+    font-size: 3.0rem;
+}
+
+.calculation{
+    font-size: 7.0rem;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.choice{
+    display: flex;
+    justify-content: space-around;
+}
+
+#correct{
+    height: 100px;
+    width: 300px;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#wrong{
+    height: 100px;
+    width: 300px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#time{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: flex-end;
+    height: 120px;
+    font-size: 5rem
+}
