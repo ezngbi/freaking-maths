@@ -93,3 +93,4 @@ GenerateNum();
 CheckTime();
 setUpEvents();
 //Nghi cach lam sao dung cai HasAnswered de tiep tuc chuong trinh
+//abcdklsaj
